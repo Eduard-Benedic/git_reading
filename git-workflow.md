@@ -26,6 +26,6 @@ Tracking branches are local branches that have a direct relationsip to a remote 
 To set up a local branch with a different name than the remote branch, you can type:
 **git checkout -b [branch] [remotename]/[branch]**
 
-If you already track a remote branch with your local branch you can push upstream with:
+If you already track a remote branch with your local branch you can push upstream with::
 
 **git merge @{upstream} || git merge @{u}**
